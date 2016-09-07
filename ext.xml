@@ -1,0 +1,21 @@
+<extension point="org.eclipse.ui.commands>
+	<category name="Commands_Multiskilling" id="multiSkilling.commands.category.ID">
+	</category>
+	<command name="Submit To Release"
+		categoryId="multiSkilling.commands.category.Id"
+		id="multiSkilling.commands.submit_ItemRev"
+	</command>
+</extension>
+
+<extension point="org.eclipse.ui.handlers>
+	<handler commandid="Commands_Multiskilling" id="multiSkilling.commands.submit_ItemRev" 
+	class="com.teamcenter.rac.mt.handler.multiskill.multiskillSubmitItemRev">
+	</handler>
+</extension>
+
+	<command commandID="multiSkilling.commands.submit_ItemRev" 
+		title="Submit To Release" icon="icons/Submit.png" renderingHint="commandbutton"/>
+		
+<separator/>
+<command commandid="multiSkilling.commands.submit_ItemRev" title="Submit To Release" icon="icons/Submit.png" renderingHint="commandbutton"/>
+<separator/>
